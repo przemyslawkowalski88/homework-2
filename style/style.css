@@ -43,7 +43,7 @@ img{
 
 .container{
     width: 1200px;
-    padding: 15px;
+    padding: 0 15px;
     align-items: center;
     margin: 0 auto;
 }
@@ -60,7 +60,7 @@ img{
 
 /*----COMPONENTS-----*/
 .main-button{
-  
+
 }
 
 .contact-mail:hover,
@@ -86,7 +86,7 @@ img{
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--family-color);
+  color: #2196f3;
 }
 
 .third-header {
@@ -95,7 +95,7 @@ img{
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--font-family);
+  color: #2196f3;
 }
 
 /*----END-COMPONENTS-----*/
@@ -115,8 +115,8 @@ img{
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: var(--family-color);
-  font-family: var(--main-font);
+  color: #2196f3;
+  font-family: "Roboto", sans-serif;
 }
 .navigation-logo-color {
   color:var(--main-color);
@@ -135,7 +135,7 @@ img{
   line-height: 1.142;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--family-color);
+  color: #2196f3;
 }
 
 .contact-list{
@@ -200,7 +200,7 @@ img{
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  font-family:var(--main-font);
+  font-family: "Roboto",sans-serif;
   width: 200px;
   height: 50px;
   color: #FFFFFF;
@@ -236,7 +236,7 @@ img{
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--family-color);
+  color: #2196f3;
 }
 
 .nav-adv-p {
@@ -281,6 +281,15 @@ text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
+.what-we-do-item{
+    left: 815px;
+    top: 1635px;
+    background: #FFFFFF;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+  
 
 /*--END-OUR-TEAM--*/
 /*--FOOTER--*/
@@ -333,8 +342,7 @@ text-align: center;
 
 /*--PORTFOLIO-BUTTONS--*/
 .buttons{
-  padding-bottom: 50px;
-   padding-top: 94px;
+  padding-top: 94px;
 }
 
 .buttons-porfolio-item:not(:last-child){
@@ -358,7 +366,7 @@ text-align: center;
     background: #F5F4FA;
     border-radius: 4px;
 
-    font-family:var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
