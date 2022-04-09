@@ -3,6 +3,10 @@
   --secondary-font: "Raleway", sans-serif;
   --main-color: #2196f3;
   --family-color: #212121;
+  --gray-color: #757575;
+  --white-color: #FFFFFF;
+  --creamy-color: #F5F4FA;
+  --graphite-color: #2f303a;
 }
 
 body {
@@ -170,7 +174,7 @@ img{
   line-height: 1.142;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: var(--gray-color)
 }
 
 /*------END-HEDER------*/
@@ -183,7 +187,7 @@ img{
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color:#FFFFFF;
+  color: var(--white-color);
 
 }
 
@@ -244,7 +248,7 @@ img{
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--gray-color)
 }
 
 /*--END-WHAT-WE-DO--*/
@@ -269,7 +273,7 @@ text-align: center;
   text-align: center;
 }
 .staff{
-  background: #F5F4FA;
+  background: var(--creamy-color);
 }
 
 .staff-p {
@@ -279,7 +283,7 @@ text-align: center;
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--gray-color);
 }
 
 /*--END-OUR-TEAM--*/
@@ -308,7 +312,7 @@ font-family: var(--font-family);
 }
 
 .footer {
-  background: #2f303a;
+  background: var(--graphite-color);
 }
 
 .navigation-logo-footer {
@@ -316,7 +320,7 @@ font-family: var(--font-family);
   font-size: 26px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-address {
@@ -325,7 +329,7 @@ font-family: var(--font-family);
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /*--END-FOOTER--*/
@@ -355,7 +359,7 @@ font-family: var(--font-family);
     height: 38px;
     left: 639px;
     top: 174px;
-    background: #F5F4FA;
+    background: var(--creamy-color);
     border-radius: 4px;
 
     font-family:var(--font-family);
@@ -383,7 +387,7 @@ font-family: var(--font-family);
     /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white-color);
 /*--END-PORTFOLIO-BUTTONS--*/
 }
 
@@ -399,7 +403,7 @@ font-family: var(--font-family);
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--gray-color);
   margin: 0;
   padding-top: 4px;
   }
